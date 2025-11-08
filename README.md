@@ -60,5 +60,15 @@ GET  /api/cart?cartId=...
 PUT  /api/cart   { cartId, productId, qty }
 DELETE /api/cart/:productId   (body: { cartId })
 POST /api/checkout  { cartId, name, email, items }
+<img width="1896" height="864" alt="image" src="https://github.com/user-attachments/assets/875367ff-29a4-4e1c-ad15-e55e17f16a27" />
+
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/659bf603-cc76-4808-823c-dc33ed97f08d" />
+
+<img width="1918" height="868" alt="image" src="https://github.com/user-attachments/assets/5207741a-369e-48ec-be0c-03c84f3569e8" />
+
+<img width="541" height="469" alt="image" src="https://github.com/user-attachments/assets/bb2b05f6-a294-4d00-9fc3-ea9a2f0eafc6" />
+
+
+
 
 
