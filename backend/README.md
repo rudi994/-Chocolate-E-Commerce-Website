@@ -1,3 +1,52 @@
+🍫Chocolate E-Commerce Store
+Cocoa & Charm Chocolates🍫
+
+
+A modern full-stack chocolate shopping website featuring product listings, cart, and checkout — built with React, Node.js, Express, and SQLite.
+
+🌟 Features
+🖥 Frontend (React)🍬
+
+Browse featured products with rich visuals
+
+Add/remove items from cart with real-time updates
+
+Live product search
+
+Checkout form with dynamic total calculation
+
+Toast messages for add/remove actions
+
+⚙️ Backend (Express + SQLite)
+
+REST API serving product catalog
+
+In-memory + SQLite hybrid cart management
+
+Checkout endpoint with order summary & receipt
+
+No external DB setup — portable .db file
+
+Modular architecture (routes/, context/, data/)
+
+🚀 Setup Guide
+🧩 Prerequisites
+
+Ensure you have installed:
+Node.js
+ (v20 or higher)
+SQLite3 CLI
+Git
+
+🔗 API Overview
+Endpoint	Method	Description
+/api/products	GET	Returns all products
+/api/products/:id	GET	Returns single product by ID
+/api/cart	POST	Add product to cart
+/api/cart/clear	POST	Clear specific cart
+/api/checkout	POST	Checkout with user details and get receipt
+
+
 Backend quick start:
 1. cd backend
 2. npm install
@@ -11,3 +60,5 @@ GET  /api/cart?cartId=...
 PUT  /api/cart   { cartId, productId, qty }
 DELETE /api/cart/:productId   (body: { cartId })
 POST /api/checkout  { cartId, name, email, items }
+
+

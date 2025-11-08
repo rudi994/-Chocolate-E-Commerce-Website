@@ -19,4 +19,15 @@ package-lock.json
 uploads/
 .DS_Store
 .vscode/
-.idea/
+.idea/cd "D:\Mock E-commerce Nexora"
+
+# If repo not initialized
+git init
+
+# Add .gitignore and README first, then rest
+git add .gitignore README.md
+git commit -m "chore: add gitignore and README"
+
+# add rest of files (safe: .gitignore prevents env/db being added)
+git add .
+git commit -m "chore: initial project files"
