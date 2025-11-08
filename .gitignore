@@ -1,0 +1,22 @@
+# node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# React / build artifacts
+/build
+/dist
+
+# Environment
+.env
+/ backend/.env
+/ my-app/.env
+
+# Database / uploads / OS
+*.db
+/data/*.db
+/data/*.sqlite
+uploads/
+.DS_Store
+.vscode/
+.idea/

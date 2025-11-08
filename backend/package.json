@@ -1,0 +1,22 @@
+{
+  "name": "mock-ecom-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "sql.js": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "description": "Backend quick start:\r 1. cd backend\r 2. npm install\r 3. copy .env.example to .env (optional)\r 4. npm run dev   # uses nodemon, or `npm start` to run once",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
